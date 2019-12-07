@@ -54,7 +54,7 @@
     "white-label": "on",
     "sitemapSwitcher": true,
     "versionFirst": "4.5.2",
-    "uniqCompNum": 118,
+    "uniqCompNum": 119,
     "versionPublish": "4.11.5",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1209,7 +1209,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Page not found",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1921,7 +1921,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "privacy",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1946,11 +1946,11 @@
         }
       ]
     },
-    "page3.html": {
+    "terms.html": {
       "settings": {
         "meta_descr": "Web Site Builder Description",
-        "title": "Page 3",
-        "order": 1
+        "title": "terms",
+        "order": 2
       },
       "components": [
         {
