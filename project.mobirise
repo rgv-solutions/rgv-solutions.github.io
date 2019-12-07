@@ -54,7 +54,7 @@
     "white-label": "on",
     "sitemapSwitcher": true,
     "versionFirst": "4.5.2",
-    "uniqCompNum": 153,
+    "uniqCompNum": 154,
     "versionPublish": "4.11.5",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -659,6 +659,10 @@
               }
             },
             ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".head-item": {
+              "color": "#465052",
               "text-align": "left"
             }
           },
