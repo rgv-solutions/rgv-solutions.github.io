@@ -14,10 +14,11 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
@@ -465,7 +466,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="m+AJpZg32kqwSBORDOPGf+oHGfY28rfa1yrZJ0dU8ZyZsXm6FDYGI8GVbJKAkcXXW7kalqi5Kpxf0nY07c1OfpJRsGSDgDiW2kDCqgLZ6mWcfpqoU67eoeXvF0Uk8ifB.v1sgj7phXS+M0BmHJVJmlRRM/qA3rIfxnrFLrFgE5WMdrxuAwGmYEmbSS6I+I61udFAAzChFzVnujkFen7o1AiZmCms/IBnHlOU/Mj+ggembvtOu/UofkDbh3sq8PrSH">
+<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="5Lwqp6sibaW8vhthomqJTwzBNC/VGf2zmQKWORPoKb0uXCgweTMD/twD17tpHXzG7p1kOU8ugx5c0EnmjD0wncc4vGzTM+8L/MJ/rkb+B6iu3PteVC6IWObde5JmVo4J.TgyoSJAYasxR2UBIVJEwfOsmr3y6/JVo3Ll9a+vfq5jHsLDx3JmZG3/vj7ku3cGlu8lTvHOPLgP5QYZYQRXfX6KoM2+CtDgAZN3riMz2Nd24lR2XLq2xAwVoZWzFrk4=">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -493,7 +494,11 @@
 <button type="submit" class="btn btn-primary display-7">Submit</button>
 </div>
 </div>
-</form><!--Formbuilder Form-->
+<span class="gdpr-block">
+<label>
+<span class="textGDPR" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-Personal" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
+</label>
+</span></form><!--Formbuilder Form-->
 </div>
         </div>
     </div>
@@ -509,7 +514,7 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2019 <a href="https://witsec.nl">rgv-solutions.github.io</a>&nbsp;- All Rights Reserved
+                    © Copyright 2019 <a href="https://rgv-solutions.github.io/">rgv-solutions.github.io</a>&nbsp;- All Rights Reserved
                 </p>
             </div>
         </div>
@@ -520,12 +525,14 @@
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/datatables/jquery.data-tables.min.js"></script>
@@ -537,7 +544,8 @@
   <script src="assets/formoid/formoid.min.js"></script>
   
   
-  <input name="animation" type="hidden">
+<input name="cookieData" type="hidden" data-cookie-customdialogselector="null" data-cookie-colortext="#424a4d" data-cookie-colorbg="rgba(234, 239, 241, 0.99)" data-cookie-textbutton="Agree" data-cookie-colorbutton="" data-cookie-colorlink="#424a4d" data-cookie-underlinelink="true" data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
+    <input name="animation" type="hidden">
   
 </body>
 </html>
