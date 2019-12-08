@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "witsec.nl",
-    "currentPage": "index.html",
+    "currentPage": "perso.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3060,9 +3060,9 @@
         }
       ]
     },
-    "personal.html": {
+    "perso.html": {
       "settings": {
-        "title": "Personal",
+        "title": "Person",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
