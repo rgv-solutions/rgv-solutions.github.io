@@ -1039,6 +1039,9 @@ section.lazy-placeholder:after {
 .cid-r8l8HSJgwl H1 {
   color: #616161;
 }
+#hrblock-block-4s hr {
+  margin: 0;
+}
 .cid-rJZFwmDzzU {
   padding-top: 15px;
   padding-bottom: 90px;
@@ -1066,7 +1069,7 @@ section.lazy-placeholder:after {
 .cid-rJZFwmDzzU table {
   width: 100% !important;
   margin-top: 6px;
-  border: 1px solid #cccccc;
+  border: 1px solid #efefef;
   margin-bottom: 0;
 }
 .cid-rJZFwmDzzU table th {
@@ -1075,11 +1078,11 @@ section.lazy-placeholder:after {
   border-bottom: none;
 }
 .cid-rJZFwmDzzU table th:hover {
-  background: #cccccc;
+  background: #efefef;
   color: #000000;
 }
 .cid-rJZFwmDzzU table td {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #efefef;
 }
 .cid-rJZFwmDzzU table.table {
   background: #ffffff;
