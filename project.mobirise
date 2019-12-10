@@ -114,7 +114,7 @@
         "title": "rg-solutions",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "!-- The core Firebase JS SDK is always required and must be listed first -->\n<script src=\"https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js\"></script>\n\n<!-- TODO: Add SDKs for Firebase products that you want to use\n     https://firebase.google.com/docs/web/setup#available-libraries -->\n<script src=\"https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js\"></script>\n\n<script>\n  // Your web app's Firebase configuration\n  var firebaseConfig = {\n    apiKey: \"AIzaSyDRAnHDCt0mPld5XsQ9HInjTFqOcSXMkPk\",\n    authDomain: \"peppy-ridge-704.firebaseapp.com\",\n    databaseURL: \"https://peppy-ridge-704.firebaseio.com\",\n    projectId: \"peppy-ridge-704\",\n    storageBucket: \"peppy-ridge-704.appspot.com\",\n    messagingSenderId: \"790527458362\",\n    appId: \"1:790527458362:web:3b5372ed03c33bc5320903\",\n    measurementId: \"G-R82M1MM5VN\"\n  };\n  // Initialize Firebase\n  firebase.initializeApp(firebaseConfig);\n  firebase.analytics();\n</script>",
         "html_before": ""
       },
       "components": [
