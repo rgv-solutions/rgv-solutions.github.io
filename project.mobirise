@@ -574,37 +574,6 @@
           "_params": {}
         },
         {
-          "hrColor": "border-color:#55b4d4;",
-          "hrThickness": "border-top-width:1px;",
-          "hrFullWidth": "min-width:100%;",
-          "hrWidth": "width:18%;",
-          "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
-          "hrDrawStyle": "min-width:100%;width:18%;border-color:#55b4d4;border-style:solid;border-top-width:1px;",
-          "_params": {
-            "hrColor": "#55b4d4",
-            "hrThickness": "1",
-            "hrFullWidth": true,
-            "hrWidth": "18",
-            "hrStyleSolid": true,
-            "hrStyleDotted": false,
-            "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
-            "bgColor": "#efefef"
-          },
-          "_styles": {
-            "hr": {
-              "margin": "0"
-            }
-          },
-          "alias": "hrblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "hrblock-block",
-          "_anchor": "hrblock-block-4s"
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
